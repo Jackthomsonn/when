@@ -1,0 +1,17 @@
+{
+  "name": "when",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "node bin/index",
+    "test": "npm run build && mocha"
+  },
+  "keywords": [],
+  "author": "Jack Thomson <hello@jackthomson.co.uk> (http://www.jackthomson.co.uk)",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^9.1.1"
+  }
+}

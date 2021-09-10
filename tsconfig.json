@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2016",
+    "declaration": true,
+    "outDir": "./bin",
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src/**/*"
+, "example/data_processor.ts"  ]
+}
