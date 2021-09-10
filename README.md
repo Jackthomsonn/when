@@ -1,6 +1,6 @@
 # When clause
 
-This is small library where you can add a ```when``` annotation to the top of a method and perform pattern matching against arguments provided in the caller. When a pattern is matched, the provided delegator will perform your intended action. It removes the need for an if else clause or switch statement which can get hard to read, the more complex it gets.
+Add a `when` annotation to the top of a method and perform pattern matching against arguments provided in the caller. When a pattern is matched, the provided delegator will perform your intended action. It removes the need for an if else clause or switch statement which can get hard to read, the more complex it gets.
 
 ```
 import { when } from "../src/when";
