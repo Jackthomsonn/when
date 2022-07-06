@@ -23,10 +23,3 @@ export class DataProcessor {
     return data;
   }
 }
-
-// The approach above makes for much easier testing
-// We send some data to the process_data method
-// Depending on the structure, we delegate the processing logic
-// To the correct controller
-// We have no if else statements, no switch statements etc
-// Which makes for easier reading and reduces code complexity
